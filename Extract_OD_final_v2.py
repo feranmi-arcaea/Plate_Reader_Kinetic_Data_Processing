@@ -23,6 +23,26 @@ Plate_map_input_file = input_2.strip()
 output_folder = input_3.strip()
 output_path = f"{output_folder}/ExtractOD_output_file.csv"  # Construct the output path
 
+# Extract the file extension
+file_extension = os.path.splitext(input_file_path)[1].strip().lower()
+print (file_extension)
+
+# Convert .xlsx to .csv if necessary
+if file_extension == '.xlsx':
+    # Read the Excel file
+    df = pd.read_excel(input_file_path, header=None)
+    
+    # Construct new .csv file path
+    new_csv_path = os.path.splitext(input_file_path)[0] + ".csv"
+    
+    # Save the dataframe to .csv
+    df.to_csv(new_csv_path, index=False, header=False)
+    
+    # Update the input_file_path to the new .csv path
+    input_file_path = new_csv_path
+    file_extension = '.csv'  # update file_extension to '.csv' for later checks
+print (input_file_path)
+
 # Check if output folder exists, if not, create it
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
@@ -32,6 +52,7 @@ input_file_path = input_file_path.strip("'").strip('"')
 
 # Extract the file extension
 file_extension = os.path.splitext(input_file_path)[1].strip().lower()
+
 
 # Load the data based on file extension
 if file_extension == '.csv':
@@ -61,6 +82,20 @@ def extract_data_from_index(start_index):
     return data_cleaned.iloc[start_index + 1:start_index + num_reads +2]
 
 
+def excel_datetime_to_time_str(excel_datetime_str):
+    """Extract the time portion from an Excel date-time string and add 24h depending on days since 1900-01-01."""
+    date_str, time_str = excel_datetime_str.split()
+    year, month, day = map(int, date_str.split('-'))
+    # Subtracting 1 day because we are considering from 1900-01-01
+    days_from_1900 = (datetime.date(year, month, day) - datetime.date(1900, 1, 1)).days + 1
+    added_hours = 24 * days_from_1900
+
+    hours, minutes, seconds = map(int, time_str.split(":"))
+    hours += added_hours
+    print(f"Extract the time portion: {hours:02d}:{minutes:02d}:{seconds:02d}")
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+
+# Modify the convert_to_time_str function to handle Excel date-time format
 def convert_to_time_str(value):
     if isinstance(value, float):
         if not math.isnan(value):
@@ -69,7 +104,25 @@ def convert_to_time_str(value):
                 value = value.split(".")[0]  # Removing decimal part if present
         else:
             return None  # Return None for 'nan'
+    if value.startswith("1900-"):  # Check for Excel's datetime format
+        value = excel_datetime_to_time_str(value)
     return value
+
+# Now, before processing, let's convert .xlsx files to .csv
+if file_extension == '.xlsx':
+    temp_csv_path = os.path.join(output_folder, "temp_converted.csv")
+    data_xlsx = pd.read_excel(input_file_path, header=None)
+    data_xlsx.to_csv(temp_csv_path, index=False, header=False)
+    data = pd.read_csv(temp_csv_path, header=None)
+    os.remove(temp_csv_path)  # remove the temporary .csv file after reading
+elif file_extension == '.csv':
+    data = pd.read_csv(input_file_path, header=None)
+else:
+    print(f"Detected file extension: '{file_extension}'")
+    print("Unsupported file type")
+    exit()  # Exit the script if the file type is unsupported
+
+
 import datetime
 
 def time_to_str(time_obj):

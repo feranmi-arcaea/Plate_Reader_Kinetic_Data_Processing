@@ -2,9 +2,9 @@ import subprocess
 # input_1 = '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Buffered_Lotions_SLM_09_20_23_R1_FA.xlsx' # Raw plate reader file
 # input_2 = '/mnt/g/Shared drives/Personal Folders/Feranmi/Experimental Data/Plate_map_input_file.csv' # Plate_map_input_file
 # input_3 = '/mnt/g/Shared drives/Personal Folders/Feranmi/Experimental Data/Buffered_Lotions/Output_folder_1' #Output_folder
-input_1 = '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Buffered_Spray_AAs_SLM_09_14_23_R3_FA.csv'
-input_2= '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Plate_map_input_file.csv'
-input_3= '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Buffered_Spray_AAs/Output_folder_3'
+input_1 = '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/AAs_SLM_variations_09_19_23_R1_FA.xlsx'
+input_2= '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Plate_map_input_file.csv'
+input_3= '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder'
 
 # input_1 = '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Buffered_Lotions_SLM_09_20_23_R1_FA.csv'
 # input_2= '/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Plate_map_input_file.csv'
@@ -38,7 +38,7 @@ def log_output(result):
 
 def main():
     # Clearing or creating the log file
-    open('log', 'w').close()
+    open(f"{input_3}/log.txt", 'w').close()
 
     last_output = run_script(['python3', 'Extract_OD_final_v2.py', input_1, input_2, input_3])
     print("Extract_OD_final_v1 done")

@@ -1,0 +1,204 @@
+.xlsx
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/AAs_SLM_variations_09_19_23_R1_FA.csv
+             0                    1              2   ...     96     97     98
+348         NaN  1900-01-01 00:15:22             37  ...   0.12  0.112  0.115
+349  Read 3:700                  NaN            NaN  ...    NaN    NaN    NaN
+350         NaN                 Time  T° Read 3:700  ...    D22    D23    D24
+351         NaN             00:17:41             37  ...  0.119  0.102  0.135
+352         NaN             00:37:41             37  ...  0.115  0.092  0.124
+..          ...                  ...            ...  ...    ...    ...    ...
+774         NaN                  NaN       02:38:34  ...    NaN    NaN    NaN
+775         NaN                  NaN          0.492  ...    NaN    NaN    NaN
+776         NaN                  NaN           0.99  ...    NaN    NaN    NaN
+777         NaN                  NaN       21:37:41  ...    NaN    NaN    NaN
+778         NaN                  NaN       15:03:15  ...    NaN    NaN    NaN
+
+[431 rows x 99 columns]
+Index([349, 424, 499, 574], dtype='int64')
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:15:22' '00:35:22' '00:55:22' '01:15:22'] ... ['23:15:22' '23:35:22' '23:55:22' '1900-01-01 00:15:22']
+Extract the time portion: 24:15:22
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:15:22' '00:35:22' '00:55:22' '01:15:22'] ... ['23:15:22' '23:35:22' '23:55:22' '1900-01-01 00:15:22']
+Extract the time portion: 24:15:22
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:15:22' '00:35:22' '00:55:22' '01:15:22'] ... ['23:15:22' '23:35:22' '23:55:22' '1900-01-01 00:15:22']
+Extract the time portion: 24:15:22
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:15:22' '00:35:22' '00:55:22' '01:15:22'] ... ['23:15:22' '23:35:22' '23:55:22' '1900-01-01 00:15:22']
+Extract the time portion: 24:15:22
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:17:41' '00:37:41' '00:57:41' '01:17:41'] ... ['23:17:41' '23:37:41' '23:57:41' '1900-01-01 00:17:41']
+Extract the time portion: 24:17:41
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:17:41' '00:37:41' '00:57:41' '01:17:41'] ... ['23:17:41' '23:37:41' '23:57:41' '1900-01-01 00:17:41']
+Extract the time portion: 24:17:41
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:17:41' '00:37:41' '00:57:41' '01:17:41'] ... ['23:17:41' '23:37:41' '23:57:41' '1900-01-01 00:17:41']
+Extract the time portion: 24:17:41
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['00:17:41' '00:37:41' '00:57:41' '01:17:41'] ... ['23:17:41' '23:37:41' '23:57:41' '1900-01-01 00:17:41']
+Extract the time portion: 24:17:41
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Combining OD590 and OD700 tables into one DataFrame each...
+Subtracting OD700 from OD590...
+od590_minus_od700_df: Time  0.000000   0.333333   0.666667   ...  23.333333  23.666667  24.000000
+A1        0.070      0.076      0.079  ...      0.568      0.577      0.587
+A2        0.052      0.068      0.075  ...      0.498      0.511      0.524
+A3        0.051      0.068      0.076  ...      0.479      0.490      0.501
+A4        0.048      0.062      0.069  ...      0.493      0.499      0.505
+A5        0.054      0.066      0.072  ...      0.503      0.511      0.520
+..          ...        ...        ...  ...        ...        ...        ...
+P20       0.031      0.043      0.054  ...      1.034      1.032      1.026
+P21       0.028      0.041      0.051  ...      1.028      1.024      1.022
+P22      -0.060     -0.056     -0.054  ...     -0.047     -0.046     -0.045
+P23      -0.037     -0.031     -0.028  ...     -0.021     -0.022     -0.022
+P24      -0.060     -0.058     -0.056  ...     -0.041     -0.041     -0.041
+
+[384 rows x 73 columns].
+Data exported to /mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder/ExtractOD_output_file.csv
+check
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder/ExtractOD_output_file.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Plate_map_input_file.csv
+    Well             Annotation
+0     A1     No Blend_Microbe 1
+1     B1  Condition 1_Microbe 1
+2     C1  Condition 2_Microbe 1
+3     D1  Condition 3_Microbe 1
+4     E1  Condition 4_Microbe 1
+..   ...                    ...
+379  L24     Condition 11_Blank
+380  M24     Condition 12_Blank
+381  N24     Condition 13_Blank
+382  O24     Condition 14_Blank
+383  P24     Condition 15_Blank
+
+[384 rows x 2 columns]
+       0.0  0.3333333333333333  ...   24.0              Annotation
+A1   0.070               0.076  ...  0.587      No Blend_Microbe 1
+A2   0.052               0.068  ...  0.524      No Blend_Microbe 1
+A3   0.051               0.068  ...  0.501      No Blend_Microbe 1
+A4   0.048               0.062  ...  0.505      No Blend_Microbe 2
+A5   0.054               0.066  ...  0.520      No Blend_Microbe 2
+..     ...                 ...  ...    ...                     ...
+P20  0.031               0.043  ...  1.026  Condition 15_Microbe 7
+P21  0.028               0.041  ...  1.022  Condition 15_Microbe 7
+P22 -0.060              -0.056  ... -0.045      Condition 15_Blank
+P23 -0.037              -0.031  ... -0.022      Condition 15_Blank
+P24 -0.060              -0.058  ... -0.041      Condition 15_Blank
+
+[384 rows x 74 columns]
+                           Condition Microbe_Type  ...  23.666666666666668      24.0
+Annotation                                         ...                              
+Condition 10_Blank      Condition 10        Blank  ...            0.003667  0.003667
+Condition 10_Microbe 1  Condition 10    Microbe 1  ...            0.566333  0.577333
+Condition 10_Microbe 2  Condition 10    Microbe 2  ...            0.520333  0.526667
+Condition 10_Microbe 3  Condition 10    Microbe 3  ...            0.646000  0.656000
+Condition 10_Microbe 4  Condition 10    Microbe 4  ...            0.883000  0.890667
+...                              ...          ...  ...                 ...       ...
+No Blend_Microbe 3          No Blend    Microbe 3  ...            0.941333  0.946000
+No Blend_Microbe 4          No Blend    Microbe 4  ...            1.060000  1.060333
+No Blend_Microbe 5          No Blend    Microbe 5  ...            0.877333  0.877000
+No Blend_Microbe 6          No Blend    Microbe 6  ...            1.093667  1.095000
+No Blend_Microbe 7          No Blend    Microbe 7  ...            0.963333  0.966667
+
+[128 rows x 75 columns]
+Averaged dataframe exported successfully!
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder/averaged_output.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder
+                           Condition Microbe_Type  ...  23.666666666666668      24.0
+Annotation                                         ...                              
+Condition 10_Blank      Condition 10        Blank  ...            0.003667  0.003667
+Condition 10_Microbe 1  Condition 10    Microbe 1  ...            0.566333  0.577333
+Condition 10_Microbe 2  Condition 10    Microbe 2  ...            0.520333  0.526667
+Condition 10_Microbe 3  Condition 10    Microbe 3  ...            0.646000  0.656000
+Condition 10_Microbe 4  Condition 10    Microbe 4  ...            0.883000  0.890667
+...                              ...          ...  ...                 ...       ...
+No Blend_Microbe 3          No Blend    Microbe 3  ...            0.941333  0.946000
+No Blend_Microbe 4          No Blend    Microbe 4  ...            1.060000  1.060333
+No Blend_Microbe 5          No Blend    Microbe 5  ...            0.877333  0.877000
+No Blend_Microbe 6          No Blend    Microbe 6  ...            1.093667  1.095000
+No Blend_Microbe 7          No Blend    Microbe 7  ...            0.963333  0.966667
+
+[128 rows x 75 columns]
+Annotation
+Condition 10_Blank        Condition 10
+Condition 10_Microbe 1    Condition 10
+Condition 10_Microbe 2    Condition 10
+Condition 10_Microbe 3    Condition 10
+Condition 10_Microbe 4    Condition 10
+                              ...     
+No Blend_Microbe 3            No Blend
+No Blend_Microbe 4            No Blend
+No Blend_Microbe 5            No Blend
+No Blend_Microbe 6            No Blend
+No Blend_Microbe 7            No Blend
+Name: Condition, Length: 128, dtype: object
+['Condition 10' 'Condition 11' 'Condition 12' 'Condition 13'
+ 'Condition 14' 'Condition 15' 'Condition 1' 'Condition 2' 'Condition 3'
+ 'Condition 4' 'Condition 5' 'Condition 6' 'Condition 7' 'Condition 8'
+ 'Condition 9' 'No Blend']
+        Condition Microbe_Type  ...  23.666666666666668      24.0
+0    Condition 10        Blank  ...            0.000000  0.000000
+1    Condition 10    Microbe 1  ...            0.501667  0.512667
+2    Condition 10    Microbe 2  ...            0.458333  0.464667
+3    Condition 10    Microbe 3  ...            0.591000  0.601000
+4    Condition 10    Microbe 4  ...            0.812667  0.820333
+..            ...          ...  ...                 ...       ...
+123      No Blend    Microbe 3  ...            0.890333  0.896000
+124      No Blend    Microbe 4  ...            0.989000  0.990333
+125      No Blend    Microbe 5  ...            0.831333  0.832000
+126      No Blend    Microbe 6  ...            1.050333  1.052667
+127      No Blend    Microbe 7  ...            0.907000  0.911333
+
+[128 rows x 75 columns]
+corrected_data dataframe exported successfully!
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder/corrected_data_output.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder
+corrected_data and calculated AUC exported successfully!
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder/corrected_data_output.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder
+Plots saved to: /mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/GitHub_Code/Plate_Reader_Kinetic_Data_Processing/Sample Files/Output_folder
