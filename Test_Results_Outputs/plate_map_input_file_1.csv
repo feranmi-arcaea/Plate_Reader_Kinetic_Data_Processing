@@ -1,0 +1,385 @@
+Well,Condition_Microbe
+A1,No Blend_SLM+ 1.5% TSB_C. tuberculostearicum
+B1,0.4% ScentARC_C. tuberculostearicum
+C1,Spray Placebo initial_C. tuberculostearicum
+D1,Spray w citric acid pH 3_C. tuberculostearicum
+E1,Spray w glycolic pH 3.8_C. tuberculostearicum
+F1,Spray w citric acid 4.7_C. tuberculostearicum
+G1,Spray w citric acid 6.4_C. tuberculostearicum
+H1,3.8  glycolic acid placebo_C. tuberculostearicum
+I1,4.7 citric acid placebo_C. tuberculostearicum
+J1,6.4 citric acid placebo_C. tuberculostearicum
+K1,DI water_C. tuberculostearicum
+L1,Alanine_C. tuberculostearicum
+M1,Arginine_C. tuberculostearicum
+N1,Ascorbic acid_C. tuberculostearicum
+O1,Citrulline_C. tuberculostearicum
+P1,w citric acid pH 3 (hand-done)_C. tuberculostearicum
+A2,No Blend_SLM+ 1.5% TSB_C. tuberculostearicum
+B2,0.4% ScentARC_C. tuberculostearicum
+C2,Spray Placebo initial_C. tuberculostearicum
+D2,Spray w citric acid pH 3_C. tuberculostearicum
+E2,Spray w glycolic pH 3.8_C. tuberculostearicum
+F2,Spray w citric acid 4.7_C. tuberculostearicum
+G2,Spray w citric acid 6.4_C. tuberculostearicum
+H2,3.8  glycolic acid placebo_C. tuberculostearicum
+I2,4.7 citric acid placebo_C. tuberculostearicum
+J2,6.4 citric acid placebo_C. tuberculostearicum
+K2,DI water_C. tuberculostearicum
+L2,Alanine_C. tuberculostearicum
+M2,Arginine_C. tuberculostearicum
+N2,Ascorbic acid_C. tuberculostearicum
+O2,Citrulline_C. tuberculostearicum
+P2,w citric acid pH 3 (hand-done)_C. tuberculostearicum
+A3,No Blend_SLM+ 1.5% TSB_C. tuberculostearicum
+B3,0.4% ScentARC_C. tuberculostearicum
+C3,Spray Placebo initial_C. tuberculostearicum
+D3,Spray w citric acid pH 3_C. tuberculostearicum
+E3,Spray w glycolic pH 3.8_C. tuberculostearicum
+F3,Spray w citric acid 4.7_C. tuberculostearicum
+G3,Spray w citric acid 6.4_C. tuberculostearicum
+H3,3.8  glycolic acid placebo_C. tuberculostearicum
+I3,4.7 citric acid placebo_C. tuberculostearicum
+J3,6.4 citric acid placebo_C. tuberculostearicum
+K3,DI water_C. tuberculostearicum
+L3,Alanine_C. tuberculostearicum
+M3,Arginine_C. tuberculostearicum
+N3,Ascorbic acid_C. tuberculostearicum
+O3,Citrulline_C. tuberculostearicum
+P3,w citric acid pH 3 (hand-done)_C. tuberculostearicum
+A4,No Blend_SLM+ 1.5% TSB_C. jeikeium
+B4,0.4% ScentARC_C. jeikeium
+C4,Spray Placebo initial_C. jeikeium
+D4,Spray w citric acid pH 3_C. jeikeium
+E4,Spray w glycolic pH 3.8_C. jeikeium
+F4,Spray w citric acid 4.7_C. jeikeium
+G4,Spray w citric acid 6.4_C. jeikeium
+H4,3.8  glycolic acid placebo_C. jeikeium
+I4,4.7 citric acid placebo_C. jeikeium
+J4,6.4 citric acid placebo_C. jeikeium
+K4,DI water_C. jeikeium
+L4,Alanine_C. jeikeium
+M4,Arginine_C. jeikeium
+N4,Ascorbic acid_C. jeikeium
+O4,Citrulline_C. jeikeium
+P4,w citric acid pH 3 (hand-done)_C. jeikeium
+A5,No Blend_SLM+ 1.5% TSB_C. jeikeium
+B5,0.4% ScentARC_C. jeikeium
+C5,Spray Placebo initial_C. jeikeium
+D5,Spray w citric acid pH 3_C. jeikeium
+E5,Spray w glycolic pH 3.8_C. jeikeium
+F5,Spray w citric acid 4.7_C. jeikeium
+G5,Spray w citric acid 6.4_C. jeikeium
+H5,3.8  glycolic acid placebo_C. jeikeium
+I5,4.7 citric acid placebo_C. jeikeium
+J5,6.4 citric acid placebo_C. jeikeium
+K5,DI water_C. jeikeium
+L5,Alanine_C. jeikeium
+M5,Arginine_C. jeikeium
+N5,Ascorbic acid_C. jeikeium
+O5,Citrulline_C. jeikeium
+P5,w citric acid pH 3 (hand-done)_C. jeikeium
+A6,No Blend_SLM+ 1.5% TSB_C. jeikeium
+B6,0.4% ScentARC_C. jeikeium
+C6,Spray Placebo initial_C. jeikeium
+D6,Spray w citric acid pH 3_C. jeikeium
+E6,Spray w glycolic pH 3.8_C. jeikeium
+F6,Spray w citric acid 4.7_C. jeikeium
+G6,Spray w citric acid 6.4_C. jeikeium
+H6,3.8  glycolic acid placebo_C. jeikeium
+I6,4.7 citric acid placebo_C. jeikeium
+J6,6.4 citric acid placebo_C. jeikeium
+K6,DI water_C. jeikeium
+L6,Alanine_C. jeikeium
+M6,Arginine_C. jeikeium
+N6,Ascorbic acid_C. jeikeium
+O6,Citrulline_C. jeikeium
+P6,w citric acid pH 3 (hand-done)_C. jeikeium
+A7,No Blend_SLM+ 1.5% TSB_C. striatum
+B7,0.4% ScentARC_C. striatum
+C7,Spray Placebo initial_C. striatum
+D7,Spray w citric acid pH 3_C. striatum
+E7,Spray w glycolic pH 3.8_C. striatum
+F7,Spray w citric acid 4.7_C. striatum
+G7,Spray w citric acid 6.4_C. striatum
+H7,3.8  glycolic acid placebo_C. striatum
+I7,4.7 citric acid placebo_C. striatum
+J7,6.4 citric acid placebo_C. striatum
+K7,DI water_C. striatum
+L7,Alanine_C. striatum
+M7,Arginine_C. striatum
+N7,Ascorbic acid_C. striatum
+O7,Citrulline_C. striatum
+P7,w citric acid pH 3 (hand-done)_C. striatum
+A8,No Blend_SLM+ 1.5% TSB_C. striatum
+B8,0.4% ScentARC_C. striatum
+C8,Spray Placebo initial_C. striatum
+D8,Spray w citric acid pH 3_C. striatum
+E8,Spray w glycolic pH 3.8_C. striatum
+F8,Spray w citric acid 4.7_C. striatum
+G8,Spray w citric acid 6.4_C. striatum
+H8,3.8  glycolic acid placebo_C. striatum
+I8,4.7 citric acid placebo_C. striatum
+J8,6.4 citric acid placebo_C. striatum
+K8,DI water_C. striatum
+L8,Alanine_C. striatum
+M8,Arginine_C. striatum
+N8,Ascorbic acid_C. striatum
+O8,Citrulline_C. striatum
+P8,w citric acid pH 3 (hand-done)_C. striatum
+A9,No Blend_SLM+ 1.5% TSB_C. striatum
+B9,0.4% ScentARC_C. striatum
+C9,Spray Placebo initial_C. striatum
+D9,Spray w citric acid pH 3_C. striatum
+E9,Spray w glycolic pH 3.8_C. striatum
+F9,Spray w citric acid 4.7_C. striatum
+G9,Spray w citric acid 6.4_C. striatum
+H9,3.8  glycolic acid placebo_C. striatum
+I9,4.7 citric acid placebo_C. striatum
+J9,6.4 citric acid placebo_C. striatum
+K9,DI water_C. striatum
+L9,Alanine_C. striatum
+M9,Arginine_C. striatum
+N9,Ascorbic acid_C. striatum
+O9,Citrulline_C. striatum
+P9,w citric acid pH 3 (hand-done)_C. striatum
+A10,No Blend_SLM+ 1.5% TSB_S. hominis H3
+B10,0.4% ScentARC_S. hominis H3
+C10,Spray Placebo initial_S. hominis H3
+D10,Spray w citric acid pH 3_S. hominis H3
+E10,Spray w glycolic pH 3.8_S. hominis H3
+F10,Spray w citric acid 4.7_S. hominis H3
+G10,Spray w citric acid 6.4_S. hominis H3
+H10,3.8  glycolic acid placebo_S. hominis H3
+I10,4.7 citric acid placebo_S. hominis H3
+J10,6.4 citric acid placebo_S. hominis H3
+K10,DI water_S. hominis H3
+L10,Alanine_S. hominis H3
+M10,Arginine_S. hominis H3
+N10,Ascorbic acid_S. hominis H3
+O10,Citrulline_S. hominis H3
+P10,w citric acid pH 3 (hand-done)_S. hominis H3
+A11,No Blend_SLM+ 1.5% TSB_S. hominis H3
+B11,0.4% ScentARC_S. hominis H3
+C11,Spray Placebo initial_S. hominis H3
+D11,Spray w citric acid pH 3_S. hominis H3
+E11,Spray w glycolic pH 3.8_S. hominis H3
+F11,Spray w citric acid 4.7_S. hominis H3
+G11,Spray w citric acid 6.4_S. hominis H3
+H11,3.8  glycolic acid placebo_S. hominis H3
+I11,4.7 citric acid placebo_S. hominis H3
+J11,6.4 citric acid placebo_S. hominis H3
+K11,DI water_S. hominis H3
+L11,Alanine_S. hominis H3
+M11,Arginine_S. hominis H3
+N11,Ascorbic acid_S. hominis H3
+O11,Citrulline_S. hominis H3
+P11,w citric acid pH 3 (hand-done)_S. hominis H3
+A12,No Blend_SLM+ 1.5% TSB_S. hominis H3
+B12,0.4% ScentARC_S. hominis H3
+C12,Spray Placebo initial_S. hominis H3
+D12,Spray w citric acid pH 3_S. hominis H3
+E12,Spray w glycolic pH 3.8_S. hominis H3
+F12,Spray w citric acid 4.7_S. hominis H3
+G12,Spray w citric acid 6.4_S. hominis H3
+H12,3.8  glycolic acid placebo_S. hominis H3
+I12,4.7 citric acid placebo_S. hominis H3
+J12,6.4 citric acid placebo_S. hominis H3
+K12,DI water_S. hominis H3
+L12,Alanine_S. hominis H3
+M12,Arginine_S. hominis H3
+N12,Ascorbic acid_S. hominis H3
+O12,Citrulline_S. hominis H3
+P12,w citric acid pH 3 (hand-done)_S. hominis H3
+A13,No Blend_SLM+ 1.5% TSB_S. epidermidis
+B13,0.4% ScentARC_S. epidermidis
+C13,Spray Placebo initial_S. epidermidis
+D13,Spray w citric acid pH 3_S. epidermidis
+E13,Spray w glycolic pH 3.8_S. epidermidis
+F13,Spray w citric acid 4.7_S. epidermidis
+G13,Spray w citric acid 6.4_S. epidermidis
+H13,3.8  glycolic acid placebo_S. epidermidis
+I13,4.7 citric acid placebo_S. epidermidis
+J13,6.4 citric acid placebo_S. epidermidis
+K13,DI water_S. epidermidis
+L13,Alanine_S. epidermidis
+M13,Arginine_S. epidermidis
+N13,Ascorbic acid_S. epidermidis
+O13,Citrulline_S. epidermidis
+P13,w citric acid pH 3 (hand-done)_S. epidermidis
+A14,No Blend_SLM+ 1.5% TSB_S. epidermidis
+B14,0.4% ScentARC_S. epidermidis
+C14,Spray Placebo initial_S. epidermidis
+D14,Spray w citric acid pH 3_S. epidermidis
+E14,Spray w glycolic pH 3.8_S. epidermidis
+F14,Spray w citric acid 4.7_S. epidermidis
+G14,Spray w citric acid 6.4_S. epidermidis
+H14,3.8  glycolic acid placebo_S. epidermidis
+I14,4.7 citric acid placebo_S. epidermidis
+J14,6.4 citric acid placebo_S. epidermidis
+K14,DI water_S. epidermidis
+L14,Alanine_S. epidermidis
+M14,Arginine_S. epidermidis
+N14,Ascorbic acid_S. epidermidis
+O14,Citrulline_S. epidermidis
+P14,w citric acid pH 3 (hand-done)_S. epidermidis
+A15,No Blend_SLM+ 1.5% TSB_S. epidermidis
+B15,0.4% ScentARC_S. epidermidis
+C15,Spray Placebo initial_S. epidermidis
+D15,Spray w citric acid pH 3_S. epidermidis
+E15,Spray w glycolic pH 3.8_S. epidermidis
+F15,Spray w citric acid 4.7_S. epidermidis
+G15,Spray w citric acid 6.4_S. epidermidis
+H15,3.8  glycolic acid placebo_S. epidermidis
+I15,4.7 citric acid placebo_S. epidermidis
+J15,6.4 citric acid placebo_S. epidermidis
+K15,DI water_S. epidermidis
+L15,Alanine_S. epidermidis
+M15,Arginine_S. epidermidis
+N15,Ascorbic acid_S. epidermidis
+O15,Citrulline_S. epidermidis
+P15,w citric acid pH 3 (hand-done)_S. epidermidis
+A16,No Blend_SLM+ 1.5% TSB_C. acnes
+B16,0.4% ScentARC_C. acnes
+C16,Spray Placebo initial_C. acnes
+D16,Spray w citric acid pH 3_C. acnes
+E16,Spray w glycolic pH 3.8_C. acnes
+F16,Spray w citric acid 4.7_C. acnes
+G16,Spray w citric acid 6.4_C. acnes
+H16,3.8  glycolic acid placebo_C. acnes
+I16,4.7 citric acid placebo_C. acnes
+J16,6.4 citric acid placebo_C. acnes
+K16,DI water_C. acnes
+L16,Alanine_C. acnes
+M16,Arginine_C. acnes
+N16,Ascorbic acid_C. acnes
+O16,Citrulline_C. acnes
+P16,w citric acid pH 3 (hand-done)_C. acnes
+A17,No Blend_SLM+ 1.5% TSB_C. acnes
+B17,0.4% ScentARC_C. acnes
+C17,Spray Placebo initial_C. acnes
+D17,Spray w citric acid pH 3_C. acnes
+E17,Spray w glycolic pH 3.8_C. acnes
+F17,Spray w citric acid 4.7_C. acnes
+G17,Spray w citric acid 6.4_C. acnes
+H17,3.8  glycolic acid placebo_C. acnes
+I17,4.7 citric acid placebo_C. acnes
+J17,6.4 citric acid placebo_C. acnes
+K17,DI water_C. acnes
+L17,Alanine_C. acnes
+M17,Arginine_C. acnes
+N17,Ascorbic acid_C. acnes
+O17,Citrulline_C. acnes
+P17,w citric acid pH 3 (hand-done)_C. acnes
+A18,No Blend_SLM+ 1.5% TSB_C. acnes
+B18,0.4% ScentARC_C. acnes
+C18,Spray Placebo initial_C. acnes
+D18,Spray w citric acid pH 3_C. acnes
+E18,Spray w glycolic pH 3.8_C. acnes
+F18,Spray w citric acid 4.7_C. acnes
+G18,Spray w citric acid 6.4_C. acnes
+H18,3.8  glycolic acid placebo_C. acnes
+I18,4.7 citric acid placebo_C. acnes
+J18,6.4 citric acid placebo_C. acnes
+K18,DI water_C. acnes
+L18,Alanine_C. acnes
+M18,Arginine_C. acnes
+N18,Ascorbic acid_C. acnes
+O18,Citrulline_C. acnes
+P18,w citric acid pH 3 (hand-done)_C. acnes
+A19,No Blend_SLM+ 1.5% TSB_Mock community (MOP with C. acnes)
+B19,0.4% ScentARC_Mock community (MOP with C. acnes)
+C19,Spray Placebo initial_Mock community (MOP with C. acnes)
+D19,Spray w citric acid pH 3_Mock community (MOP with C. acnes)
+E19,Spray w glycolic pH 3.8_Mock community (MOP with C. acnes)
+F19,Spray w citric acid 4.7_Mock community (MOP with C. acnes)
+G19,Spray w citric acid 6.4_Mock community (MOP with C. acnes)
+H19,3.8  glycolic acid placebo_Mock community (MOP with C. acnes)
+I19,4.7 citric acid placebo_Mock community (MOP with C. acnes)
+J19,6.4 citric acid placebo_Mock community (MOP with C. acnes)
+K19,DI water_Mock community (MOP with C. acnes)
+L19,Alanine_Mock community (MOP with C. acnes)
+M19,Arginine_Mock community (MOP with C. acnes)
+N19,Ascorbic acid_Mock community (MOP with C. acnes)
+O19,Citrulline_Mock community (MOP with C. acnes)
+P19,w citric acid pH 3 (hand-done)_Mock community (MOP with C. acnes)
+A20,No Blend_SLM+ 1.5% TSB_Mock community (MOP with C. acnes)
+B20,0.4% ScentARC_Mock community (MOP with C. acnes)
+C20,Spray Placebo initial_Mock community (MOP with C. acnes)
+D20,Spray w citric acid pH 3_Mock community (MOP with C. acnes)
+E20,Spray w glycolic pH 3.8_Mock community (MOP with C. acnes)
+F20,Spray w citric acid 4.7_Mock community (MOP with C. acnes)
+G20,Spray w citric acid 6.4_Mock community (MOP with C. acnes)
+H20,3.8  glycolic acid placebo_Mock community (MOP with C. acnes)
+I20,4.7 citric acid placebo_Mock community (MOP with C. acnes)
+J20,6.4 citric acid placebo_Mock community (MOP with C. acnes)
+K20,DI water_Mock community (MOP with C. acnes)
+L20,Alanine_Mock community (MOP with C. acnes)
+M20,Arginine_Mock community (MOP with C. acnes)
+N20,Ascorbic acid_Mock community (MOP with C. acnes)
+O20,Citrulline_Mock community (MOP with C. acnes)
+P20,w citric acid pH 3 (hand-done)_Mock community (MOP with C. acnes)
+A21,No Blend_SLM+ 1.5% TSB_Mock community (MOP with C. acnes)
+B21,0.4% ScentARC_Mock community (MOP with C. acnes)
+C21,Spray Placebo initial_Mock community (MOP with C. acnes)
+D21,Spray w citric acid pH 3_Mock community (MOP with C. acnes)
+E21,Spray w glycolic pH 3.8_Mock community (MOP with C. acnes)
+F21,Spray w citric acid 4.7_Mock community (MOP with C. acnes)
+G21,Spray w citric acid 6.4_Mock community (MOP with C. acnes)
+H21,3.8  glycolic acid placebo_Mock community (MOP with C. acnes)
+I21,4.7 citric acid placebo_Mock community (MOP with C. acnes)
+J21,6.4 citric acid placebo_Mock community (MOP with C. acnes)
+K21,DI water_Mock community (MOP with C. acnes)
+L21,Alanine_Mock community (MOP with C. acnes)
+M21,Arginine_Mock community (MOP with C. acnes)
+N21,Ascorbic acid_Mock community (MOP with C. acnes)
+O21,Citrulline_Mock community (MOP with C. acnes)
+P21,w citric acid pH 3 (hand-done)_Mock community (MOP with C. acnes)
+A22,No Blend_SLM+ 1.5% TSB_Blank
+B22,0.4% ScentARC_Blank
+C22,Spray Placebo initial_Blank
+D22,Spray w citric acid pH 3_Blank
+E22,Spray w glycolic pH 3.8_Blank
+F22,Spray w citric acid 4.7_Blank
+G22,Spray w citric acid 6.4_Blank
+H22,3.8  glycolic acid placebo_Blank
+I22,4.7 citric acid placebo_Blank
+J22,6.4 citric acid placebo_Blank
+K22,DI water_Blank
+L22,Alanine_Blank
+M22,Arginine_Blank
+N22,Ascorbic acid_Blank
+O22,Citrulline_Blank
+P22,w citric acid pH 3 (hand-done)_Blank
+A23,No Blend_SLM+ 1.5% TSB_Blank
+B23,0.4% ScentARC_Blank
+C23,Spray Placebo initial_Blank
+D23,Spray w citric acid pH 3_Blank
+E23,Spray w glycolic pH 3.8_Blank
+F23,Spray w citric acid 4.7_Blank
+G23,Spray w citric acid 6.4_Blank
+H23,3.8  glycolic acid placebo_Blank
+I23,4.7 citric acid placebo_Blank
+J23,6.4 citric acid placebo_Blank
+K23,DI water_Blank
+L23,Alanine_Blank
+M23,Arginine_Blank
+N23,Ascorbic acid_Blank
+O23,Citrulline_Blank
+P23,w citric acid pH 3 (hand-done)_Blank
+A24,No Blend_SLM+ 1.5% TSB_Blank
+B24,0.4% ScentARC_Blank
+C24,Spray Placebo initial_Blank
+D24,Spray w citric acid pH 3_Blank
+E24,Spray w glycolic pH 3.8_Blank
+F24,Spray w citric acid 4.7_Blank
+G24,Spray w citric acid 6.4_Blank
+H24,3.8  glycolic acid placebo_Blank
+I24,4.7 citric acid placebo_Blank
+J24,6.4 citric acid placebo_Blank
+K24,DI water_Blank
+L24,Alanine_Blank
+M24,Arginine_Blank
+N24,Ascorbic acid_Blank
+O24,Citrulline_Blank
+P24,w citric acid pH 3 (hand-done)_Blank

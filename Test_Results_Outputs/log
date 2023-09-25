@@ -1,0 +1,194 @@
+             0         1              2        3   ...     95     96     97     98
+348         NaN  24:15:22             37    0.344  ...  0.254   0.28  0.288  0.297
+349  Read 3:700       NaN            NaN      NaN  ...    NaN    NaN    NaN    NaN
+350         NaN      Time  T° Read 3:700       A1  ...    D21    D22    D23    D24
+351         NaN   0:17:41           36.9    0.318  ...  2.249   2.36  2.203  2.322
+352         NaN   0:37:41             37    0.317  ...  2.242  2.332   2.18  2.307
+..          ...       ...            ...      ...  ...    ...    ...    ...    ...
+774         NaN       NaN          ?????    ?????  ...    NaN    NaN    NaN    NaN
+775         NaN       NaN          0.033    0.028  ...    NaN    NaN    NaN    NaN
+776         NaN       NaN          0.796     0.84  ...    NaN    NaN    NaN    NaN
+777         NaN       NaN        0:57:41  0:57:41  ...    NaN    NaN    NaN    NaN
+778         NaN       NaN          ?????    ?????  ...    NaN    NaN    NaN    NaN
+
+[431 rows x 99 columns]
+Index([349, 424, 499, 574], dtype='int64')
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:15:22' '0:35:22' '0:55:22' '1:15:22'] ... ['23:35:22' '23:55:22' '24:15:22']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:15:22' '0:35:22' '0:55:22' '1:15:22'] ... ['23:35:22' '23:55:22' '24:15:22']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:15:22' '0:35:22' '0:55:22' '1:15:22'] ... ['23:35:22' '23:55:22' '24:15:22']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:15:22' '0:35:22' '0:55:22' '1:15:22'] ... ['23:35:22' '23:55:22' '24:15:22']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:17:41' '0:37:41' '0:57:41' '1:17:41'] ... ['23:37:41' '23:57:41' '24:17:41']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:17:41' '0:37:41' '0:57:41' '1:17:41'] ... ['23:37:41' '23:57:41' '24:17:41']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:17:41' '0:37:41' '0:57:41' '1:17:41'] ... ['23:37:41' '23:57:41' '24:17:41']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Extracting data...
+Data extracted.
+Extracting well names...
+Extracting and converting time values...
+Raw time values: ['0:17:41' '0:37:41' '0:57:41' '1:17:41'] ... ['23:37:41' '23:57:41' '24:17:41']
+Converted time values to relative minutes
+Formatting data...
+Returning processed data.
+Combining OD590 and OD700 tables into one DataFrame each...
+Subtracting OD700 from OD590...
+od590_minus_od700_df: Time  0.000000   0.333333   0.666667   ...  23.333333  23.666667  24.000000
+A1        0.013      0.014      0.014  ...      0.008      0.008      0.008
+A2        0.017      0.016      0.016  ...      0.006      0.000     -0.007
+A3        0.028      0.027      0.025  ...     -0.017     -0.034     -0.051
+A4        0.001      0.000     -0.001  ...     -0.029     -0.031     -0.032
+A5        0.000     -0.001     -0.006  ...     -0.004     -0.004     -0.005
+..          ...        ...        ...  ...        ...        ...        ...
+P20       0.009      0.012      0.013  ...      0.012      0.013      0.013
+P21       0.009      0.014      0.013  ...      0.014      0.014      0.015
+P22       0.010      0.014      0.015  ...      0.015      0.016      0.015
+P23       0.012      0.014      0.014  ...      0.014      0.015      0.015
+P24       0.014      0.017      0.017  ...      0.017      0.018      0.018
+
+[384 rows x 73 columns].
+Data exported to /mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4/ExtractOD_output_file.csv
+check
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4/ExtractOD_output_file.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Plate_map_input_file.csv
+    Well             Annotation
+0     A1     No Blend_Microbe 1
+1     B1  Condition 1_Microbe 1
+2     C1  Condition 2_Microbe 1
+3     D1  Condition 3_Microbe 1
+4     E1  Condition 4_Microbe 1
+..   ...                    ...
+379  L24     Condition 11_Blank
+380  M24     Condition 12_Blank
+381  N24     Condition 13_Blank
+382  O24     Condition 14_Blank
+383  P24     Condition 15_Blank
+
+[384 rows x 2 columns]
+       0.0  0.3333333333333333  ...   24.0              Annotation
+A1   0.013               0.014  ...  0.008      No Blend_Microbe 1
+A2   0.017               0.016  ... -0.007      No Blend_Microbe 1
+A3   0.028               0.027  ... -0.051      No Blend_Microbe 1
+A4   0.001               0.000  ... -0.032      No Blend_Microbe 2
+A5   0.000              -0.001  ... -0.005      No Blend_Microbe 2
+..     ...                 ...  ...    ...                     ...
+P20  0.009               0.012  ...  0.013  Condition 15_Microbe 7
+P21  0.009               0.014  ...  0.015  Condition 15_Microbe 7
+P22  0.010               0.014  ...  0.015      Condition 15_Blank
+P23  0.012               0.014  ...  0.015      Condition 15_Blank
+P24  0.014               0.017  ...  0.018      Condition 15_Blank
+
+[384 rows x 74 columns]
+                           Condition Microbe_Type  ...  23.666666666666668      24.0
+Annotation                                         ...                              
+Condition 10_Blank      Condition 10        Blank  ...            0.020333  0.020333
+Condition 10_Microbe 1  Condition 10    Microbe 1  ...            0.042333  0.042333
+Condition 10_Microbe 2  Condition 10    Microbe 2  ...            0.032333  0.033000
+Condition 10_Microbe 3  Condition 10    Microbe 3  ...            0.041667  0.041000
+Condition 10_Microbe 4  Condition 10    Microbe 4  ...            0.032000  0.032333
+...                              ...          ...  ...                 ...       ...
+No Blend_Microbe 3          No Blend    Microbe 3  ...            0.002667  0.002667
+No Blend_Microbe 4          No Blend    Microbe 4  ...            0.009667  0.009000
+No Blend_Microbe 5          No Blend    Microbe 5  ...            0.000000 -0.000333
+No Blend_Microbe 6          No Blend    Microbe 6  ...           -0.002333 -0.003000
+No Blend_Microbe 7          No Blend    Microbe 7  ...            0.009000  0.004667
+
+[128 rows x 75 columns]
+Averaged dataframe exported successfully!
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4/averaged_output.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4
+                           Condition Microbe_Type  ...  23.666666666666668      24.0
+Annotation                                         ...                              
+Condition 10_Blank      Condition 10        Blank  ...            0.020333  0.020333
+Condition 10_Microbe 1  Condition 10    Microbe 1  ...            0.042333  0.042333
+Condition 10_Microbe 2  Condition 10    Microbe 2  ...            0.032333  0.033000
+Condition 10_Microbe 3  Condition 10    Microbe 3  ...            0.041667  0.041000
+Condition 10_Microbe 4  Condition 10    Microbe 4  ...            0.032000  0.032333
+...                              ...          ...  ...                 ...       ...
+No Blend_Microbe 3          No Blend    Microbe 3  ...            0.002667  0.002667
+No Blend_Microbe 4          No Blend    Microbe 4  ...            0.009667  0.009000
+No Blend_Microbe 5          No Blend    Microbe 5  ...            0.000000 -0.000333
+No Blend_Microbe 6          No Blend    Microbe 6  ...           -0.002333 -0.003000
+No Blend_Microbe 7          No Blend    Microbe 7  ...            0.009000  0.004667
+
+[128 rows x 75 columns]
+Annotation
+Condition 10_Blank        Condition 10
+Condition 10_Microbe 1    Condition 10
+Condition 10_Microbe 2    Condition 10
+Condition 10_Microbe 3    Condition 10
+Condition 10_Microbe 4    Condition 10
+                              ...     
+No Blend_Microbe 3            No Blend
+No Blend_Microbe 4            No Blend
+No Blend_Microbe 5            No Blend
+No Blend_Microbe 6            No Blend
+No Blend_Microbe 7            No Blend
+Name: Condition, Length: 128, dtype: object
+['Condition 10' 'Condition 11' 'Condition 12' 'Condition 13'
+ 'Condition 14' 'Condition 15' 'Condition 1' 'Condition 2' 'Condition 3'
+ 'Condition 4' 'Condition 5' 'Condition 6' 'Condition 7' 'Condition 8'
+ 'Condition 9' 'No Blend']
+        Condition Microbe_Type  ...  23.666666666666668      24.0
+0    Condition 10        Blank  ...            0.000000  0.000000
+1    Condition 10    Microbe 1  ...            0.002667  0.002667
+2    Condition 10    Microbe 2  ...            0.027333  0.028000
+3    Condition 10    Microbe 3  ...            0.082667  0.082000
+4    Condition 10    Microbe 4  ...           -0.021667 -0.021333
+..            ...          ...  ...                 ...       ...
+123      No Blend    Microbe 3  ...           -0.022667 -0.021667
+124      No Blend    Microbe 4  ...           -0.019333 -0.019000
+125      No Blend    Microbe 5  ...           -0.023000 -0.022333
+126      No Blend    Microbe 6  ...           -0.027333 -0.027000
+127      No Blend    Microbe 7  ...           -0.029000 -0.032333
+
+[128 rows x 75 columns]
+corrected_data dataframe exported successfully!
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4/corrected_data_output.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4
+corrected_data and calculated AUC exported successfully!
+/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4/corrected_data_output.csv,/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4
+Plots saved to: /mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Test_PReader_Pipeline/Output_folder_4
