@@ -10,8 +10,8 @@ def get_file_type(filename):
 microbes = []
 conditions = []
 
-input_filename = "Test_plate_well_annotations.csv"
-output_filename = "plate_map_input_file_1.csv"
+input_filename = "/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/Plate_Outline_9_26.csv"
+output_filename = "/mnt/g/Shared drives/Arcaea Shared Drive/Personal Folders/Feranmi/Experimental Data/plate_map_input_file_9_26.csv"
 
 # Based on file type, read accordingly
 if get_file_type(input_filename) == ".csv":
@@ -46,7 +46,7 @@ for well, (microbe, condition) in zip(wells, combinations):
     data.append((well, f"{condition}_{microbe}"))
 
 # Convert to DataFrame
-df = pd.DataFrame(data, columns=['Well', 'Condition_Microbe'])
+df = pd.DataFrame(data, columns=['Well', 'Annotation'])
 print(df)
 
 # Export DataFrame to a CSV file

@@ -144,7 +144,7 @@ def extract_od_values(od_index):
     
     # Drop the rows corresponding to the "0:00:00" times
     od_table = od_table[od_table.iloc[:, 1] != "0:00:00"]
-
+    od_table = od_table[od_table.iloc[:, 1] != "00:00:00"]
     # Extracting well names
     print("Extracting well names...")
     well_names = od_table.iloc[0][3:].values
